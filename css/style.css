@@ -1,0 +1,80 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --secondary-text-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+/* header */
+.logo {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+.title-logo {
+  color: #000000;
+  text-decoration: none;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--secondary-text-color);
+}
+
+.contacts .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--secondary-text-color);
+}
+
+/* hero */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+.hero-button {
+  background-color: var(--secondary-text-color);
+  color: var(--primary-white-color);
+}
+
+/*.hero-button:hover,
+.hero-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--secondary-text-color);
+}*/
+
+/* features */
+.title {
+  color: var(--title-text-color);
+}
+
+/* work */
+
+.work {
+  color: var(--title-text-color);
+}
+
+/* team */
+.team {
+  color: var(--title-text-color);
+}
+
+.team-profession {
+  color: var(--primary-text-color);
+}
