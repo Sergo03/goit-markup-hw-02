@@ -171,7 +171,6 @@ body {
 
 .contacts-footer .link {
   list-style-type: none;
-  letter-spacing: 0.03em;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -181,11 +180,10 @@ body {
 }
 .contacts-footer .link-adress {
   list-style-type: none;
-  letter-spacing: 0.03em;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  color: #ffffff;
+  color: var(--primary-white-color);
   text-decoration: none;
   font-style: normal;
 }
@@ -195,4 +193,52 @@ body {
 .contacts-footer .link-adress:hover,
 .contacts-footer .link-adress:focus {
   color: var(--secondary-text-color);
+}
+
+/*portfolio*/
+
+/*list-button*/
+.button-list {
+  list-style-type: none;
+}
+
+.portfolio-butten {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-family: Roboto, sans-serif;
+}
+
+.portfolio-butten:hover,
+.portfolio-butten:focus {
+  background-color: var(--secondary-text-color);
+  color: var(--primary-white-color);
+}
+
+/*portfolio-list*/
+.portfolio-list {
+  list-style-type: none;
+}
+
+.portfolio-link {
+  text-decoration: none;
+}
+
+.portfolio-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87px;
+  color: var(--primary-text-color);
 }
